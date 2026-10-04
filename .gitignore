@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs — agent transcript logs live outside the repo per AGENTS.md
+log.txt
+
+# Output — generated at run time; include only if you want to version it
+# dataset/output.csv
